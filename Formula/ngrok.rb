@@ -3,7 +3,7 @@ class Ngrok < Formula
   homepage "https://ngrok.com"
   version "2.3.18"
   url "https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-darwin-amd64.zip"
-  sha256 "abb643bdba7ade5dabd60488b866804d814a41d4d7144fa09e01c9260e93659d"
+  sha256 "9862ad502f1ca2eab34fc7dbef0b201dd823697f07f519ab5ef0f6be23943f5b"
 
   def install
     prefix.install Dir["*"]
