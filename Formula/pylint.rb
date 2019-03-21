@@ -3,19 +3,19 @@ class Pylint < Formula
 
   desc "It's not just a linter that annoys you!"
   homepage "http://pylint.pycqa.org"
-  url "https://github.com/PyCQA/pylint/archive/pylint-2.2.2.tar.gz"
-  sha256 "914585f9ce4d01f6e00d90a1041815b7cea5b596a92718d8928bb034b8f29144"
+  url "https://files.pythonhosted.org/packages/01/8b/538911c0ebc2529f15004f4cb07e3ca562bb9aacea5df89cc25b62e01891/pylint-2.3.1.tar.gz"
+  sha256 "723e3db49555abaf9bf79dc474c6b9e2935ad82230b10c1138a71ea41ac0fff1"
 
   depends_on "python"
 
   resource "astroid" do
-    url "https://files.pythonhosted.org/packages/73/5f/560f729a496a27b658687d90ece2865c9b8ba60f28f7460f5ebf2acf8c4f/astroid-2.0.4.tar.gz"
-    sha256 "c7013d119ec95eb626f7a2011f0b63d0c9a095df9ad06d8507b37084eada1a8d"
+    url "https://files.pythonhosted.org/packages/85/e3/4ec967f7db4644b1fe849e4724191346d3e3f8172631ad7266f7f17a6018/astroid-2.2.5.tar.gz"
+    sha256 "6560e1e1749f68c64a4b5dee4e091fce798d2f0d84ebe638cf0e0585a343acf4"
   end
 
   resource "isort" do
-    url "https://files.pythonhosted.org/packages/b1/de/a628d16fdba0d38cafb3d7e34d4830f2c9cb3881384ce5c08c44762e1846/isort-4.3.4.tar.gz"
-    sha256 "b9c40e9750f3d77e6e4d441d8b0266cf555e7cdabdcff33c4fd06366ca761ef8"
+    url "https://files.pythonhosted.org/packages/4c/d0/54d873aa05cea889fa65cb9241b6985460a12965f09a17f7c542007487af/isort-4.3.15.tar.gz"
+    sha256 "96151fca2c6e736503981896495d344781b60d18bfda78dc11b290c6125ebdb6"
   end
 
   resource "lazy-object-proxy" do
@@ -29,13 +29,18 @@ class Pylint < Formula
   end
 
   resource "six" do
-    url "https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz"
-    sha256 "70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"
+    url "https://files.pythonhosted.org/packages/dd/bf/4138e7bfb757de47d1f4b6994648ec67a51efe58fa907c1e11e350cddfca/six-1.12.0.tar.gz"
+    sha256 "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"
+  end
+
+  resource "typed-ast" do
+    url "https://files.pythonhosted.org/packages/fc/c6/61d6410fc70fda073bd1810f9b7f7022f00146b108f278a0c00041bfe5b0/typed-ast-1.3.1.tar.gz"
+    sha256 "606d8afa07eef77280c2bf84335e24390055b478392e1975f96286d99d0cb424"
   end
 
   resource "wrapt" do
-    url "https://files.pythonhosted.org/packages/a0/47/66897906448185fcb77fc3c2b1bc20ed0ecca81a0f2f88eda3fc5a34fc3d/wrapt-1.10.11.tar.gz"
-    sha256 "d4d560d479f2c21e1b5443bbd15fe7ec4b37fe7e53d335d3b9b0a7b1226fe3c6"
+    url "https://files.pythonhosted.org/packages/67/b2/0f71ca90b0ade7fad27e3d20327c996c6252a2ffe88f50a95bba7434eda9/wrapt-1.11.1.tar.gz"
+    sha256 "4aea003270831cceb8a90ff27c4031da6ead7ec1886023b80ce0dfe0adf61533"
   end
 
   def install
