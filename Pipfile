@@ -10,6 +10,7 @@ gitlint = "*"
 homebrew-pypi-poet = "*"
 isort = "*"
 pylint = "*"
+vint = "*"
 
 [requires]
 python_version = "3.7"
