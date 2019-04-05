@@ -3,8 +3,8 @@ class Isort < Formula
 
   desc "A Python utility / library to sort imports."
   homepage "https://github.com/timothycrosley/isort"
-  url "https://files.pythonhosted.org/packages/4c/d0/54d873aa05cea889fa65cb9241b6985460a12965f09a17f7c542007487af/isort-4.3.15.tar.gz"
-  sha256 "96151fca2c6e736503981896495d344781b60d18bfda78dc11b290c6125ebdb6"
+  url "https://files.pythonhosted.org/packages/08/d2/bbbb582ea75a3237e16e7d1f37fa3bda72e9690097d7a24dfd7d80f899d0/isort-4.3.16.tar.gz"
+  sha256 "08f8e3f0f0b7249e9fad7e5c41e2113aba44969798a26452ee790c06f155d4ec"
 
   depends_on "python"
 
