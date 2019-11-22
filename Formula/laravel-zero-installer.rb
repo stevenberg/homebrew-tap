@@ -6,6 +6,7 @@ class LaravelZeroInstaller < Formula
       :tag      => "v2.3.0",
       :revision => "21ba78c6ea17c02db44a3bc9cbaf23c0ce30f7af"
 
+  depends_on "php"
   depends_on "composer"
 
   def install

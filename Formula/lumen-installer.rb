@@ -6,6 +6,7 @@ class LumenInstaller < Formula
       :tag      => "v1.1.0",
       :revision => "9fe7910e703589edd425f799545054d47df49cd6"
 
+  depends_on "php"
   depends_on "composer"
 
   def install
