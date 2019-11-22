@@ -3,8 +3,8 @@ class LaravelInstaller < Formula
   homepage "https://github.com/laravel/installer"
   url "https://github.com/laravel/installer.git",
       :using    => :git,
-      :tag      => "v2.0.1",
-      :revision => "eed4fd01d629cff7556a34139aff26e828073a17"
+      :tag      => "v2.3.0",
+      :revision => "02528de5848c2a27220258b8a5e7e820a6c57cc7"
 
   depends_on "composer"
 
